@@ -934,8 +934,8 @@ footer{
     .sourcing-btn{
         background: #21bf73;
         width: 100%;
-        font-size: 1.6rem;
-        font-weight: normal;
+        font-size: 2rem;
+        font-weight: bold;
         font-family: 'Open Sans', sans-serif;
         text-decoration: none;
         border-radius: 0.5rem;
