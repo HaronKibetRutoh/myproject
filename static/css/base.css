@@ -21,7 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #16113a;
+    background: transparent;
     border-bottom: 0.1rem solid rgba(23,204,189,0.21);
 }
 
