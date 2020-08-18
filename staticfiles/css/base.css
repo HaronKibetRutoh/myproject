@@ -29,7 +29,6 @@ nav{
     font-size: 3rem;
     font-family: 'Open Sans', sans-serif;
     padding-left: 0.5em;
-    z-index: 100;
 }
 
 .logo a{
@@ -134,7 +133,8 @@ footer{
     min-width: 100%;
     min-height: 10vh;
     border-top: 0.1rem solid grey;
-    background: rgba(23,204,189,0.08);
+    /* background: rgba(23,204,189,0.08); */
+    background: #16113a;
 }
 
 .footer-links{
@@ -187,6 +187,10 @@ footer{
 
 .check{
     color: #edf7ff;
+    background: #21bf73;
+    padding: 0.2em;
+    margin-right: 0.3em;
+    margin-bottom: 0.5em;
 }
 
 .container{
@@ -207,8 +211,11 @@ footer{
 
 
 .fa-times{
-    color: #fd3a5c;
+    color: #edf7ff;
     padding: 0.5em;
+    background: #fd3a5c;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
 }
 
 
@@ -597,11 +604,12 @@ footer{
 }
 
 .questions li{
-    list-style: decimal-leading-zero;
+    list-style: disc;
     font-size: 1.8rem;
     margin-top: 1em;
     font-weight: bold;
     color: #edf7ff;
+    margin-right: 1em;
 }
 
 .intro{
@@ -636,7 +644,7 @@ footer{
     list-style: none;
     font-size: 1.8rem;
     font-weight: bold;
-    margin-top: 1em;
+    margin-top: 1.5em;
     color: #edf7ff;
 }
 
@@ -676,7 +684,7 @@ footer{
     .navLinks{
         display: flex;
         flex-direction: column;
-        background: #000;
+        background: #16113a;
         width: 100%;
         z-index: 1;
         height: 100vh;
@@ -763,10 +771,10 @@ footer{
         padding: 0.5em 1em;
     }
     
-    .fa-times{
+    /* .fa-times{
         color: #fd3a5c;
         padding: 0.5em;
-    }
+    } */
     
     .pain-1, .pain-2, .pain-3{
         font-size: 1.6rem;
@@ -774,7 +782,7 @@ footer{
     }
     
     .offer-subheading{
-        font-size: 1.7rem;
+        font-size: 2rem;
         font-family: 'Roboto', sans-serif; 
         line-height: 3rem;
         padding: 0.5em 0.8em;
@@ -825,11 +833,13 @@ footer{
         border-style: none;
         text-align: center;
         padding-top: 1em;
+        background: #16113a;
     }
 
     .logo{
         font-size: 2.8rem;
         font-weight: bold;
+        padding-left: 0;
     }
 
     .phone{
@@ -861,15 +871,15 @@ footer{
     }
 
     .about-container h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-family: 'Roboto', sans-serif;
     }
 
     .about-container p{
-        font-size: 1.6rem;
+        font-size: 2rem;
         font-family: 'Roboto', sans-serif;
         width: 100%;
-        line-height: 2;
+        line-height: 3.5rem;
     }
     
     .questions{
@@ -878,10 +888,11 @@ footer{
     }
     
     .questions li{
-        list-style: lower-roman;
-        font-size: 1.6rem;
+        list-style: disc;
+        font-size: 2rem;
         margin-top: 1em;
         font-weight: normal;
+        line-height: 2.5;
     }
     
     .intro{
@@ -901,9 +912,10 @@ footer{
     
     .about-pains li{
         list-style: none;
-        font-size: 1.6rem;
+        font-size: 2rem;
         font-weight: normal;
-        margin-top: 1em;
+        margin-top: 2em;
+        line-height: 2.5rem;
     }
     
     .gains{
@@ -913,16 +925,17 @@ footer{
     
     .gains li{
         list-style: none;
-        font-size: 1.6rem;
+        font-size: 2rem;
         font-weight: normal;
-        margin-top: 1em
+        margin-top: 2em;
+        line-height: 2.5rem;
     }
     
     .sourcing-btn{
         background: #21bf73;
         width: 100%;
-        font-size: 1.6rem;
-        font-weight: normal;
+        font-size: 2rem;
+        font-weight: bold;
         font-family: 'Open Sans', sans-serif;
         text-decoration: none;
         border-radius: 0.5rem;
@@ -1362,6 +1375,8 @@ footer{
     .solution{
         margin-top: 3em;
         margin-bottom: 3em; 
+        font-size: 2rem;
+        line-height: 2.5rem;
     }
     
     .about-pains{
