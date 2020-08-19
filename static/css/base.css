@@ -1246,6 +1246,14 @@ img{
         opacity: 1;
         display: block;
     }
+
+    .shipping-btn:hover .ship-arrow{
+        margin-left: 0em;
+    }
+    
+    .shopping-btn:hover .shop-arrow{
+        margin-left: 0em;
+    }
     
 
     nav{
