@@ -373,7 +373,7 @@ img{
 }
 
 .part-2-img{
-    width: 70%;
+    width: 80%;
     margin-left: 5%;
 }
 
@@ -434,6 +434,60 @@ img{
     padding-top: 7%;
     line-height: 3rem;
     letter-spacing: 0.2rem;
+}
+
+.aboutus{
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.about-img-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.aboutus-title{
+    font-size: 5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #41495b;
+    font-weight: 800;
+    margin: 10% 0%;
+
+}
+
+.aboutus-copy p{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #41495b;
+    line-height: 3rem;
+    width: 50%;
+    margin: 5% auto;
+}
+
+.howitworks{
+    font-size: 3.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #41495b;
+    font-weight: 800;
+    margin: 10% 0%;
+}
+
+.step{
+    font-size: 5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #41495b;
+    font-weight: 800;
+}
+
+.howitworks-imgs{
+    width: 80%;
+    margin: 5% auto;
+}
+
+img{
+    width: 100%;
 }
 
 .register-form{
@@ -984,6 +1038,60 @@ img{
         line-height: 3rem;
         letter-spacing: 0.2rem;
     }
+
+
+    .aboutus{
+        width: 97%;
+        height: auto;
+        margin: 10% auto;
+        text-align: center;
+    }
+    
+    .about-img-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .aboutus-title{
+        font-size: 3rem;
+        font-family: 'Open Sans', sans-serif;
+        color: #41495b;
+        font-weight: 800;
+        margin: 10% 0%;
+    
+    }
+    
+    .aboutus-copy p{
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+        color: #41495b;
+        line-height: 3rem;
+        width: 100%;
+        margin: 5% auto;
+    }
+    
+    .howitworks{
+        font-size: 3.5rem;
+        font-family: 'Open Sans', sans-serif;
+        color: #41495b;
+        font-weight: 800;
+        margin: 10% 0%;
+    }
+    
+    .step{
+        font-size: 5rem;
+        font-family: 'Open Sans', sans-serif;
+        color: #41495b;
+        font-weight: 800;
+    }
+    
+    .howitworks-imgs{
+        width: 80%;
+        margin: 5% auto;
+    }
+    
+
+
     .wrapper{
         position: absolute;
         width: 100%;
@@ -1629,6 +1737,61 @@ img{
         line-height: 3rem;
         letter-spacing: 0.2rem;
     }
+
+
+    .aboutus{
+        width: 97%;
+        height: auto;
+        margin: 10% auto;
+        text-align: center;
+    }
+    
+    .about-img-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .aboutus-title{
+        font-size: 3rem;
+        font-family: 'Open Sans', sans-serif;
+        color: #41495b;
+        font-weight: 800;
+        margin: 10% 0%;
+    
+    }
+    
+    .aboutus-copy p{
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+        color: #41495b;
+        line-height: 3rem;
+        width: 100%;
+        margin: 5% auto;
+    }
+    
+    .howitworks{
+        font-size: 3.5rem;
+        font-family: 'Open Sans', sans-serif;
+        color: #41495b;
+        font-weight: 800;
+        margin: 10% 0%;
+    }
+    
+    .step{
+        font-size: 5rem;
+        font-family: 'Open Sans', sans-serif;
+        color: #41495b;
+        font-weight: 800;
+    }
+    
+    .howitworks-imgs{
+        width: 80%;
+        margin: 5% auto;
+    }
+    
+
+
+
     .wrapper{
         position: absolute;
         width: 100%;
