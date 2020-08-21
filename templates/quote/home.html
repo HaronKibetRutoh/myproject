@@ -3,51 +3,48 @@
 
 
 {% block content %}
-    <div class="quick-benefits-bar">
-        <div class="benefits-bar">
-            <li><span class="check">&#10004;</span> Stay home safe</li>
-            <li><span class="check">&#10004;</span> Easy & convenient</li>
-            <li><span class="check">&#10004;</span> Quality Guaranteed</li>
-        </div>
-    </div>
-    <div class="container">
-            <h1 class="offer-heading">Do you want to ship products from China to Kenya but don't know where to start and how to find genuine suppliers? Are you stuck finding the best, reliable, and trusted shipping agents to ship your cargo from China to Kenya?</h1>
-           
-            <p class="offer-subheading">Well, we connect you with genuine products suppliers in China and connect you with trusted shipping agents, so it becomes easier for you to import from China to Kenya. <stron">Our services are FREE</strong></p>
-            <div class="cta-btns">
-                <a class="shipping-btn" href="mailto:kibetharon41@gmail.com">Connect with us on email<span class="ship-arrow">&#10148;</span></a>
-                <a class="shopping-btn" href="https://api.whatsapp.com/send?phone=254718448461">Chat with us on WhatsApp<span class="shop-arrow">&#10148;</span></a>
+    <div class="above-fold">
+        <div class="quick-benefits-bar">
+            <div class="benefits-bar">
+                <li><span class="check">&#10004;</span> Stay home safe</li>
+                <li><span class="check">&#10004;</span> Easy & convenient</li>
+                <li><span class="check">&#10004;</span> Quality Guaranteed</li>
             </div>
+        </div>
+        <div class="container">
+                <h1 class="offer-heading">Kenya's leading <strong>shoes sourcing agent</strong></h1>
+               
+                <p class="offer-subheading">Helping bulk shoe importers get access to top-notch shoe manufacturers with unbeatable prices. We only work with a few clients per week. Minimum budget of ksh. 100,000 required.</p>
+                <div class="cta-btns">
+                    <a class="shop-request-btn" href="{% url 'quote:shopping' %}">Leave your request here<span class="ship-arrow">&#10148;</span></a>
+                    
+                    <a class="shopping-btn" href="https://api.whatsapp.com/send?phone=254718448461">WhatsApp us<span class="shop-arrow">&#10148;</span></a>
+                </div>
+        </div>
     </div>
     <div class="more-details">
         <div class="part-1">
             <div class="part-1-caption">
-                <h2>Get value for your money</h2>
-                <p>Avoid counerfeit products from fake Chinese 'suppliers'. We source from genuine manufacturers and suppliers only. This means you only get quality products. In case you don't get quality products like we promise, which is very unlikely, we have systems in place to make sure you get your money back.</p>
-                <div class="part-1-email-btn"><a href="mailto:kibetharon41@gmail.com">Talk to us on email &#8594;</a></div>
-                <div class="part-1-btn"><a href="https://api.whatsapp.com/send?phone=254718448461">Chat with us on WhatsApp &#8594;</a></div>
+                <h2>Quality shoes guarantee</h2>
+                <p>Your success is our success. Rest assured knowing that you will always get quality shoes.</p>
+                <div class="part-1-email-btn"><a class="shop-request-btn" href="{% url 'quote:shopping' %}">Leave your request here<span class="ship-arrow">&#10148;</span></a></div>
             </div>
             <div class="part-1-img"><img src="{% static 'images/qualityblue.jpeg' %}" alt="image of quality quarantee"></div>
         </div>
         <div class="part-2">
             <div class="part-2-img"><img src="{% static 'images/stayhome.jpeg' %}" alt="stay home and stay safe image"></div>
             <div  class="part-2-caption">
-                <h2>Stay Home. Stay Safe</h2>
-                <p>Leave the 'dirty work to us' at the same time following COVID 19 regulations. We will shop and ship on your behalf so you can stay safe at home. We will always keep you updated on the progress of your order</p>
-                <div class="part-1-email-btn"><a href="mailto:kibetharon41@gmail.com">Talk to us on email &#8594;</a></div>
-                <div class="part-1-btn"><a href="https://api.whatsapp.com/send?phone=254718448461">Chat with us on WhatsApp &#8594;</a></div>
+                <h2>Unbeatable prices</h2>
+                <p>Increase your profit margins when you source with us. You will get access to quality products at competitive prices. </p>
+                <div class="part-1-email-btn"><a class="shop-request-btn" href="{% url 'quote:shopping' %}">Leave your request here<span class="ship-arrow">&#10148;</span></a></div>
             </div>
         </div>
         <div class="part-3">
             <div class="part-3-caption">
-                <h2>Save time and money</h2>
-                <p>There are 3 options to import from China to Kenya.
-                    #1 Source for products and also look for reliable shipping agents by yourself. Searching and vetting suppliers on Alibaba takes time. It's also a lot risky.
-                    #2 Pay a sourcing agent to do it on your behalf. <strong>Pay</strong>. That means you have to spend money for their services
-                    #3 Use us and save both time and money. Yes, we offer services of sourcing agents <strong>FREE</strong> of charge.
+                <h2>Save time</h2>
+                <p>Source with us and save time so that you can concentrate more on your business. You don't need to waste time searching through alibaba anymore.
                 </p>
-                <div class="part-1-email-btn"><a href="mailto:kibetharon41@gmail.com">Talk to us on email &#8594;</a></div>
-                <div class="part-1-btn"><a href="https://api.whatsapp.com/send?phone=254718448461">Chat with us on WhatsApp &#8594;</a></div>
+                <div class="part-1-email-btn"><a class="shop-request-btn" href="{% url 'quote:shopping' %}">Leave your request here<span class="ship-arrow">&#10148;</span></a></div>
             </div>
             <div class="part-3-img"><img src="{% static 'images/savetime.jpeg' %}" alt="save time and money image"></div>
         </div>
@@ -56,8 +53,7 @@
             <div class="part-4-caption">
                 <h2>Quality support</h2>
                 <p>We are always there for you whenever you need us. Your success is our success. We will always reply to your contacts personally and as soon as possible</p>
-                <div class="part-1-email-btn"><a href="mailto:kibetharon41@gmail.com">Talk to us on email &#8594;</a></div>
-                <div class="part-1-btn"><a href="https://api.whatsapp.com/send?phone=254718448461">Chat with us on WhatsApp &#8594;</a></div>
+                <div class="part-1-email-btn"><a class="shop-request-btn" href="{% url 'quote:shopping' %}">Leave your request here<span class="ship-arrow">&#10148;</span></a></div>
             </div>
         </div>
     </div>
@@ -66,28 +62,37 @@
             <img class="aboutimg" src="{% static '/images/aboutus.jpeg' %}" alt="about us image">
         </div>
         <div class="aboutus-copy">
-            <h1 class="aboutus-title"><strong>Dear China to Kenya importer...</strong></h1>
-            <p class="intro-copy">If you are like most importers, you know that shipping from China to Kenya is very tiresome and time consuming, right? And if you are shipping for the first time, it's even <strong>harder</strong></p>
-            <p class="intro-copy">That's why we started this service... to make it much easier for you to import from China to Kenya.</p>
-            <h1 class="howitworks"><strong>Let me show you in brief, how we help you ship easily</strong></h1>
+            <h1 class="aboutus-title"><strong>What we do</strong></h1>
+            <p class="intro-copy"><strong>If you are like most bulk shoe importers, you know that finding genuine shoe manufacturers is difficult and time consuming</strong>.</p>
+            <p class="intro-copy">It's also hard to trust online suppliers with your money.</p>
+            <p class="intro-copy">If you are a beginner, it's even <strong>harder</strong>.</p>
+            <p class="intro-copy">That's why we want to help you source quality products from 100% genuine manufacturers.</p>
+            <h1 class="howitworks"><strong>Let me show you how easy it is to work with us</strong></h1>
             <h2 class="step"><strong>Step #1</strong></h2>
-            <p>We connect you with genuine product manufacturers in China. Our mission is to get you only the best manufacturer that matches your needs</p>
+            <p>You send us your request. Note that you must have a minimum budget of ksh. 100,000. We will contact you once we receive your request.</p>
             <div class="howitworks-imgs"><img src="{% static '/images/genuinefactory.jpeg' %}" alt=""></div>
             <h2 class="step"><strong>Step #2</strong></h2>
-            <p>We negotiate for samples and the best prices on your behalf.</p>
-            <p>We advise you on how to pay with safe methods. You can also let us pay on your behalf. The choice is yours</p>
+            <p>We proceed to get the right manufacturer for you. We will offer you the best prices within 3 working days. We guarantee you quality products at the best prices possible.</p>
             <div class="howitworks-imgs"><img src="{% static '/images/negotiate.jpeg' %}" alt=""></div>
             <h2 class="step"><strong>Step #3</strong></h2>
-            <p>We then connect you with a reliable and trusted shipping agent to Kenya. We want to make sure that your cargo arrives safely. We will monitor shipping progress and will always keep you updated.</p>
+            <p>We arrange for samples. After confirming that you are totally satisfied with the sample, we will then confirm your product run with the suppler. </p>
             <div class="howitworks-imgs"><img src="{% static '/images/reliableagent.jpeg' %}" alt=""></div>
             <h2 class="step"><strong>Step #4</strong></h2>
-            <p>We inspect the cargo once it has arrived. We advise you on how to pay. You collect your cargo.</p>
+            <p>We then make a bulk order and pay on your behalf. We will also advise on shipping your cargo</p>
             <div class="howitworks-imgs"><img src="{% static '/images/collect.jpeg' %}" alt=""></div>
         </div>
         <div class="cta-btns">
-            <a class="shipping-btn" href="mailto:kibetharon41@gmail.com">Connect with us on email<span class="ship-arrow">&#10148;</span></a>
-            <a class="shopping-btn" href="https://api.whatsapp.com/send?phone=254718448461">Chat with us on WhatsApp<span class="shop-arrow">&#10148;</span></a>
+            <a class="shop-request-btn" href="mailto:kibetharon41@gmail.com">Leave your request here<span class="ship-arrow">&#10148;</span></a>
+                    
+            <a class="shopping-btn" href="https://api.whatsapp.com/send?phone=254718448461">WhatsApp us<span class="shop-arrow">&#10148;</span></a>
         </div>
-    </div>
+        <!-- <div class="clients">
+            <h1><strong>Who we work with</strong></h1>
+            <div><img src="{% static '/images/clients.jpeg' %}" alt=""></div>
+            <p>Many of you have inquired about who we work with. Since we offer free services, we only work with importers with a <strong>minimum budget of ksh. 100, 000. We do this to make sure that we guarantee quality services</strong></p>
+            <h1><strong>Important point to note</strong></h1>
+            <p>We <strong>only serve a few sourcing clients at a go</strong>. Actually one per week. Sometimes you will have to join our waiting list. However, we accept many shipping clients. <strong>If you already have shopped for your goods, but only want us to connect you with a genuine shipping agent, we will be more than happy to server</strong></p>
+        </div>
+    </div> -->
 {% endblock content %}
     

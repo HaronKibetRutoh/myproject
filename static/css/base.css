@@ -15,6 +15,12 @@ html{
     background: #342ead;
 } */
 
+.above-fold{
+    min-width: 100%;
+    height: auto;
+    /* background: url(/static/images/shoes.jpg/) center/cover no-repeat; */
+}
+
 nav{
     height:15vh;
     display: flex;
@@ -222,7 +228,9 @@ footer{
     flex-direction: column;
 }
 
-.shipping-btn{
+
+.shop-request-btn{
+    background: red;
     padding: 1em;
     width: 100%;
     color: #edf7ff;
@@ -230,17 +238,16 @@ footer{
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    /* border-radius: 5rem; */
     border-radius: 0.5rem;
     transition: 1s;
-    box-shadow: 0.1rem 0.1rem 0.8rem black;
-    background: red;
+    box-shadow: 0.1rem 0.1rem 0.8rem gray;
+    margin-top: 1.5em;
     text-align: center;
 }
 
 .shopping-btn{
     /* background: rgb(76, 57, 223); */
-    background: #21bf73;
+    background: green;
     padding: 1em;
     width: 100%;
     color: #edf7ff;
@@ -269,13 +276,13 @@ footer{
     margin-left: 0.5em;
 }
 
-.shipping-btn:hover .ship-arrow{
+/* .shipping-btn:hover .ship-arrow{
     margin-left: 2em;
 }
 
 .shopping-btn:hover .shop-arrow{
     margin-left: 2em;
-}
+} */
 
 .more-details{
     display: flex;
@@ -343,7 +350,7 @@ img{
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: red;
+    color: #edf7ff;
 }
 
 
@@ -668,7 +675,7 @@ img{
     font-size: 1.8rem;
     background: green;
     border-style: none;
-    color: #edf7ff;
+    color: #41495b;
     cursor: pointer;
     border-radius: 0.6rem;
     box-shadow: 0.1rem 0.1rem 1rem black;
@@ -684,7 +691,7 @@ img{
     height: auto;
     margin: 0 auto;
     padding: 3em 0em;
-    color: #edf7ff;
+    color: #41495b;
 }
 
 .contact-input{
@@ -760,7 +767,7 @@ img{
     margin: 0 auto;
     margin-top: 3em;
     margin-bottom: 3em; 
-    color: #edf7ff;
+    color: #41495b;
 }
 
 .success-page{
@@ -783,7 +790,7 @@ img{
 .about-container{
     width: 50%;
     margin: 0 auto;
-    height: auto;
+    min-height: 85vh;
     margin-top: 3em;
     padding-bottom: 5em;
 }
@@ -791,7 +798,7 @@ img{
 .about-container h1{
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
-    color: #edf7ff;
+    color: #41495b;
 }
 
 .about-container p{
@@ -799,63 +806,16 @@ img{
     font-family: 'Roboto', sans-serif;
     width: 75%;
     line-height: 2;
-    color: #edf7ff;
+    color: #41495b;
+    margin: 2em 0em;
 }
 
-.questions{
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
-
-.questions li{
-    list-style: disc;
-    font-size: 1.8rem;
-    margin-top: 1em;
-    font-weight: bold;
-    color: #edf7ff;
-    margin-right: 1em;
-}
-
-.intro{
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
-
-.solution{
-    margin-top: 3em;
-    margin-bottom: 3em; 
-}
-
-.about-pains{
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
-
-.about-pains li{
-    list-style: none;
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-top: 1em;
-    color: #edf7ff;
-}
-
-.gains{
-    margin-top: 3em;
-    margin-bottom: 5em;
-}
-
-.gains li{
-    list-style: none;
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-top: 1.5em;
-    color: #edf7ff;
-}
 
 .sourcing-btn{
     width: 100%;
     background: #21bf73;
     padding: 1em 0em;
+    margin-top: 2em;
     font-size: 1.8rem;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;

@@ -38,7 +38,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
     {% block title %}
-        Shipping
+        Kenya's number one shoe sourcing agency
     {% endblock title %}
         </title>
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
@@ -67,15 +67,15 @@
                         </div>
                     </div>
                 <ul class="navLinks">
-                    <li><a href="{% url 'quote:about' %}">Who we are</a></li>
+                    <li><a href="{% url 'quote:about' %}">Pricing</a></li>
                     <!-- <li><a href="">How it works</a></li> -->
-                    <li><a href="{% url 'contact:contact' %}">Contact us</a></li>
-                    {% if user.is_authenticated %}
+                    <li><a href="{% url 'contact:contact' %}">Contact</a></li>
+                    <!-- {% if user.is_authenticated %}
                     <li><a class="logout" href="{% url 'users:logout' %}">Logout</a></li>
                     {% else %}
                     <li><a class="login" href="{% url 'users:signin' %}">Login</a></li>
                     <li><a class="register" href="{% url 'users:register' %}">Signup</a></li>
-                    {% endif %}
+                    {% endif %} -->
                 </ul>
             </nav>
         </header>
@@ -91,13 +91,13 @@
         <footer>
             <div class="footer-links">
                 <p>Copyright 2020. All Rights Reserved</p>
-                <p><a href="">Terms of use</a></p>
+                <!-- <p><a href="">Terms of use</a></p> -->
             </div>
         </footer>
     </div>
     <script type="text/javascript" src="{% static 'js/base.js' %}"></script>
     <!-- GetButton.io widget -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         (function () {
             var options = {
                 whatsapp: "+254718448461", // WhatsApp number
@@ -109,7 +109,7 @@
             s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
             var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
         })();
-    </script>
+    </script> -->
     <!-- /GetButton.io widget -->
 </body>
 </html>

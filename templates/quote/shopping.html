@@ -7,7 +7,7 @@
 
 {% block content %}
     <form class="shopping-request-form" action="" method="post">
-        <h3 class="contact-form-label"><strong>Briefly tell us what you want to import</strong></h3>
+        <h3 class="contact-form-label"><strong>Leave your request below</strong></h3>
         <div class="contact-fields">
         <p class="contact-form-label">{{form.name.label}}</p>
         <div>
@@ -27,14 +27,14 @@
         </div>
         </div>
         <div class="contact-fields">
-        <p class="contact-form-label">Briefly tell us what you want to import</p>
+        <p class="contact-form-label">Tell us what shoes you want to import</p>
         <div>
             {{form.description}}
         </div>
         </div>
         {% csrf_token %}
     <div>
-        <input class="contact-button" type="submit" value="Send us your request">
+        <input class="contact-button" type="submit" value="Send your request">
     </div>
     </form>
 {% endblock content %}
