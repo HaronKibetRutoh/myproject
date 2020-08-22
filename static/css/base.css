@@ -1135,14 +1135,14 @@ img{
 
 
     .container{
-        width: 100%;
+        width: 95%;
         margin-top: 0%;
     }
 
     .offer-heading{
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         font-family: 'Open Sans', sans-serif;
-        padding: 0.5em 0.8em;
+        padding: 0.5em 0em;
     }
 
     .pains{
@@ -1162,10 +1162,10 @@ img{
     }
     
     .offer-subheading{
-        font-size: 2rem;
+        font-size: 2.3rem;
         font-family: 'Roboto', sans-serif; 
         line-height: 3rem;
-        padding: 0.5em 0.8em;
+        padding: 0.5em 0em;
         margin-top: 0em;
     }
 
@@ -1173,7 +1173,7 @@ img{
         display: grid;
         grid-template-columns: 1fr;
         padding: 0.5em 0em;
-        margin-top: 2em;
+        margin-top: 1em;
         width: 100%;
     }
     .shop-request-btn{
