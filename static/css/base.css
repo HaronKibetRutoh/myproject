@@ -198,9 +198,9 @@ footer{
 }
 
 .offer-heading{
-    font-size: 3.5rem;
+    font-size: 7rem;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 0.5em;
+    margin-top: 0em;
     color: #000;
 }
 
@@ -215,7 +215,7 @@ footer{
 
 
 .offer-subheading{
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     font-family: 'Roboto', sans-serif; 
     line-height: 3rem;
     margin-top: 1em;
@@ -234,7 +234,7 @@ footer{
     padding: 1em;
     width: 100%;
     color: #edf7ff;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
