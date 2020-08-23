@@ -136,6 +136,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'assets'),
+    '/home/ruto/django-projects/myproject/env/lib/python3.8/site-packages/django/contrib/admin/static/admin'
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
