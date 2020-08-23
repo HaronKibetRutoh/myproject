@@ -23,7 +23,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,"templates")
 SECRET_KEY = '5qp&05iylesqtkmyd)o02d5*d3%%rbrh=h(d-^3*(1(sw57%c-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['161.35.161.86', 'localhost', '127.0.0.1', 'www.shipfromchinatokenya.com', 'shipfromchinatokenya.com',]
 
